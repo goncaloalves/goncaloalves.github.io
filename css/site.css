@@ -1,7 +1,9 @@
 body{
-    background-image: url('../img/Elegant_Background-6.jpg');
+    background: url('../img/Elegant_Background-6.jpg') no-repeat center center fixed;
     background-size: cover; 
-    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     font-family: oswald, sans-serif;
     text-align: center;
 }
