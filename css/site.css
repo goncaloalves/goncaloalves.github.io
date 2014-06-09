@@ -1,7 +1,7 @@
 html{
     background-image: url('../img/Elegant_Background-6.jpg');
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center center; 
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -36,8 +36,8 @@ a{
 .outer{
     display: table;
     position: absolute;
-    height: 100%;
-    width: 100%;
+    height: 99%;
+    width: 98%;
 }
 
 .container{
