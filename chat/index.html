@@ -16,9 +16,26 @@
 			</div>
 			<div class="panel-footer">
 				<form role="form">
-					<div class="form-group">
-						<label for="comments">Nick</label>
-						<input class="form-control" id="nick" name="nick">
+					<div class="row">
+						<div class="col-xs-6">
+							<div class="input-group">
+								<span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+								<input class="form-control" id="nick" name="nick" placeholder="Nick">
+							</div>
+						</div>
+						<div class="col-xs-6">
+							<div class="input-group">
+								<span class="input-group-addon"><span class="glyphicon glyphicon-picture"></span></span>
+								<div class="uri">
+									<div>
+										<input type="text" class="form-control" readonly id="uri">
+									</div>
+									<div>
+										<span class="btn btn-default btn-file"> Browse <input type="file" id="imgFile" name="imgFile"></span>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 					<div class="form-group">
 						<label for="comments">Comments</label>
