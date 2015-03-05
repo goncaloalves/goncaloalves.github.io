@@ -1,21 +1,12 @@
-html{
-    background-image: url('../img/Elegant_Background-6.jpg');
-    background-repeat: no-repeat;
-    background-position: center center; 
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
-}
-
 body{
-    font-family: oswald, sans-serif;
+    font-family: oswald, arial, sans-serif;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 h1{
-    color: FFFFF9;
+    color: #FFFFF9;
     font-style: italic;
     font-weight: 400;
     text-transform: uppercase;
@@ -33,11 +24,29 @@ a{
     color: gray;
 }
 
+div, .outer, .container{
+    position: relative;
+}
+/*
+.fix{
+    clear: both;
+    position: relative;
+}
+*/
 .outer{
+    background-image: url('../img/Elegant_Background-4.jpg');
+     background-repeat: no-repeat;
+    background-position: center center; 
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    
     display: table;
     position: absolute;
-    height: 98%;
-    width: 98%;
+    height: 100%;
+    width: 100%;
 }
 
 .container{
@@ -48,9 +57,92 @@ a{
 .cover{
     margin-left: auto;
     margin-right: auto;
+    /*display: none;*/
 }
 
 @media (max-width: 480px){
     h1{font-size: 30px;}
     h3{font-size: 18px;}
+}
+/*
+html, body{
+    background: #f1f1f1;
+    padding: 0em;
+}
+
+h1{
+    text-align: center;
+    color: #a8a8a8;
+    text-shadow: 1px 1px 0 white;
+}
+*/
+form{
+    max-width: 480px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+form input, form textarea{
+        border: 0;
+        outline: 0;
+        padding: 1em;
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        border-radius: 8px;
+        margin-top: 1em;
+        font-family: sans-serif;
+        -moz-box-shadow: 0 1px 1px rgba(0, 0,  0, 0.1);
+        -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+form input:focus, form textarea:focus{
+        -moz-box-shadow: 0 0 2px #e74c3c !important;
+        -webkit-box-shadow: 0 0 2px #e74c3c !important;
+        box-shadow: 0 0 2px #e74c3c !important;
+}
+
+form #input-submit:hover{
+        -moz-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+        -webkit-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+        box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+}
+
+input{
+        margin: 10px 0;
+}
+
+textarea{
+        margin: 0 0 10px 0;
+}
+
+#input-name{
+        width: 210px;
+
+}
+
+#input-email{
+        width: 210px;
+
+}
+
+#input-message{
+        width: 450px;
+        height: 100px;
+        resize: none;
+}
+
+#input-submit{
+        cursor: pointer;
+        width: 475px;
+        border: none;
+        background: #00CCFF;
+        color: #FFFFFF;
+        margin: 0 0 5px;
+        padding: 10px;
+        font-size: 15px;
+}
+
+.form-container{
+    position: relative;
 }

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Casamento Rita & Gonçalo</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description"content>
+		<meta name="author"content>
+		<link rel="icon" href="">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script type="text/javascript">
+			$(document).on("scroll",function(){
+			    if($(document).scrollTop()>100){
+			        $("nav").removeClass("large").addClass("small");
+			        $("div.top").removeClass("large").addClass("small");
+			        $("div.parallax-one").removeClass("large").addClass("small");
+			    } else{
+			        $("nav").removeClass("small").addClass("large");
+			        $("div.top").removeClass("small").addClass("large");
+			        $("div.parallax-one").removeClass("small").addClass("large");
+			    }
+			});
+
+			$(function() {
+			  $('a[href*=#]:not([href=#])').click(function() {
+			    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			      var target = $(this.hash);
+			      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			      if (target.length) {
+			        $('html,body').animate({
+			          scrollTop: target.offset().top
+			        }, 1000);
+			        return false;
+			      }
+			    }
+			  });
+			});
+		</script>
+	</head>
+	<body>
+		<header id="top">
+			<nav class="large">
+				<a href="#top">
+				<div class="top large"></div>
+				</a>
+				<ul>
+					<li id="inicio"><a href="#nos">Nós</a></li>
+					<li id="igreja"><a href="#festa">Festa</a></li>
+					<li id="quinta"><a href="#mapa">Mapa</a></li>
+					<li id="quinta"><a href="#estadia">Estadia</a></li>
+					<li id="quinta"><a href="#outros">Outros</a></li>
+					<li class="break"></li>
+				</ul>
+			</nav>
+
+		</header>
+
+
+		<div id="parallax">
+			<div id="spacer"></div>
+			<section id="nos">
+				<div class="parallax-one large">
+					<h2>Save The Date!</h2>
+					<h3 id="countdown"></h3>
+				</div>
+			</section>
+
+			<section>
+				<div class="block">
+					<p><span class="first-character sc">A</span> Igreja Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate in lectus id pretium. Quisque tortor enim, porta vel laoreet eu, vehicula et sapien. Etiam accumsan semper est vel rhoncus. Vivamus quis libero massa. Nulla ac ipsum consectetur ex laoreet posuere. Etiam sed erat a nibh rhoncus volutpat sed in ante. Sed auctor dolor eget neque accumsan placerat. Duis id lorem dignissim, viverra dui vitae, ultricies leo. Vestibulum posuere dolor id orci blandit consequat. Nulla aliquam ac ipsum a dapibus. Nam rutrum orci nulla, sed dapibus ante interdum at. Donec ante velit, placerat sit amet posuere a, viverra sed justo. Duis mauris velit, ornare a rutrum quis, aliquam in nulla. Suspendisse vel lacus ac dolor congue consequat quis congue lorem.</p>
+					<p class="line-break margin-top-10"></p>
+					<p class="margin-top-10">Aliquam nec sodales quam. Sed dictum, libero vel venenatis accumsan, nunc mi vehicula diam, nec fringilla risus neque non odio. Donec nisl lorem, ornare ut pulvinar ac, imperdiet a mauris. Duis scelerisque sapien urna, at pulvinar nibh vulputate non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean a est pulvinar, consectetur augue ac, elementum ligula. Nullam dapibus enim ligula, nec porttitor sem elementum ut. Donec facilisis convallis leo id vehicula. Nunc auctor fringilla lobortis. Maecenas quis consequat arcu, sit amet luctus nulla. Fusce feugiat ornare venenatis. Cras at magna vel ante maximus mollis vitae eu dui. Sed tempor sit amet sem nec dapibus. Praesent eget mauris non nisi tempor pretium ac quis mi. Morbi eu convallis sem.</p>
+				</div>
+			</section>
+
+			<section id="festa">
+				<div class="parallax-two">
+					<h2>Festa</h2>
+				</div>
+			</section>
+
+			<section>
+				<div class="block">
+				<p><span class="first-character sc">P</span>orque queremos, de facto e sem exceções, a presença de todas as pessoas que nos são mais próximas e que, até hoje, têm vindo a acompanhar o nosso caminho guiamo-las, também nós, pelo caminho programado para a nossa festa!
+				<br>
+				<br>
+				<p class="bold centered">A partir das 14:00 (hora ainda por confirmar)</p>
+      			<p class="centered">Cerimónia Religiosa</p>
+      			<p class="centered">@</p>
+      			<p class="centered">Igreja de São Silvestre</p>
+      			<p class="line-break margin-top-10"></p>
+				<p class="bold centered">16h30</p>
+				<p class="centered">Recepção</p>
+				<p class="centered">@</p>
+				<p class="centered">Quinta de Sant’ana</p>
+				<p class="line-break margin-top-10"></p>
+				<p class="bold centered">19h00</p>
+				<p class="centered">Jantar</p>
+				<p class="centered">@</p>
+				<p class="centered">Quinta de Sant’ana</p>
+				</div>
+			</section>
+
+			<section id="mapa">
+				<div class="parallax-three">
+					<h2>Mapa</h2>
+				</div>
+			</section>
+
+			<section>
+				<div class="block">
+				<p><span class="first-character sc">A</span>cerimómia terá lugar no Gradil, em Mafra, que se situa a 30 minutos a norte de Lisboa. Abaixo, apresentam-se os detalhes da localização para garantir que ninguem se perde!	 Note-se que ambos os locais dispõem de estacionamento próprio.</p>
+				<p class="margin-only-top-10 centered"><a href="http://www.patrimoniocultural.pt/pt/patrimonio/patrimonio-imovel/pesquisa-do-patrimonio/classificado-ou-em-vias-de-classificacao/geral/view/72350" target="_blank">Igreja de São Silvestre do Gradil</a></p>
+				<p class="centered">Rua das Forças Armadas</p>
+				<p class="centered">2665-118 Gradil</p>
+				<p class="centered">Portugal</p>
+				<p class="centered">GPS: <a href="https://www.google.pt/maps/search/38%C2%B058'55.0800%22,+-009%C2%B016'51.1800%22/@38.9819667,-9.2808833,17z/data=!3m1!4b1" target="_blank">+38° 58' 55.08", -9° 16' 51.18"</a></p>
+				<p class="line-break margin-top-10"></p>
+				<p class="centered"><a href="http://www.quintadesantana.com/pt/" target="_blank">Quinta de Sant’Ana</a></p>
+				<p class="centered">2665-113 Gradil</p>
+				<p class="centered">Rua Direita 3, Mafra, Portugal.</p>
+				<p class="centered">GPS: <a href="https://www.google.pt/maps/place/38%C2%B058'44.7%22N+9%C2%B016'52.4%22W/@38.979075,-9.2812111,875m/data=!3m1!1e3!4m2!3m1!1s0x0:0x0" target="_blank">+38° 58' 44.67", -9° 16' 52.36"</a></p>
+				</div>
+			</section>
+
+			<section id="estadia">
+				<div class="parallax-four">
+					<h2>Estadia</h2>
+				</div>
+			</section>
+
+			<section>
+				<div class="block">
+				<p><span class="first-character sc">P</span>ara os que preferem ficar a dormir perto do local da festa, sugerem-se as seguintes opções.<br>Nota: Agradecemos que, antes de efetuarem qualquer reserva, falem connosco!</p>
+				<p></p>
+				<table class="table-fill">
+					<tr>
+						<th>Local</th>
+						<th>Distância da Festa</th>
+						<th>Contacto</th>
+						<th>Descrição</th>
+					</tr>
+					<tr>
+						<td>Casa Mãe do Gradil</td>
+						<td>1 minuto</td>
+						<td>261 961 232</td>
+						<td>Dormitórios com 30 camas por quarto.<br>
+							Sujeito a verificação de disponibilidade.</td>
+					</tr>
+					<tr>
+						<td>Quinta dos Machados</td>
+						<td>3 minutos</td>
+						<td>261 961 279</td>
+						<td>Dispõe de 17 quartos duplos e 2 casas familiares (de 4 e 5 pessoas).</td>
+					</tr>
+					<tr>
+						<td>Tapada de Mafra</td>
+						<td>10 minutos</td>
+						<td>261 814 240</td>
+						<td>Dispõe de 9 quartos (7 duplos e 2 singles).</td>
+					</tr>
+				</table>
+				<p class="margin-top-10">Mauris consectetur quis massa nec gravida. Nam eu vulputate est, eu pulvinar tellus. Integer imperdiet arcu ligula, a imperdiet turpis blandit in. In vestibulum cursus rutrum. Praesent tempor sed nisi nec vestibulum. Aenean gravida sapien nec ornare finibus. Ut posuere turpis tellus, quis varius velit vulputate quis. Aenean tempus, lorem quis accumsan molestie, augue lectus tincidunt libero, vitae fringilla augue ante non dolor. Morbi porta, massa vitae suscipit venenatis, dolor metus tempus nisl, ac hendrerit neque turpis sed tortor.</p>
+				</div>
+			</section>
+
+			<section id="outros">
+				<div class="parallax-five">
+					<h2>Outros</h2>
+				</div>
+			</section>
+
+			<section>
+				<div class="block">
+				<p><span class="first-character sc">A</span> Quinta Donec sollicitudin aliquam elit, eget posuere augue interdum eget. Quisque mattis in mi a volutpat. Praesent ac magna at purus placerat pharetra quis eget sapien. Pellentesque vel ligula a lorem convallis luctus nec ultricies ligula. Nunc sagittis velit non condimentum mattis. Aenean rutrum mauris ac arcu ultricies, in rhoncus diam rutrum. Sed urna ex, semper et magna vitae, ultricies gravida sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla tristique ut lacus quis varius. Suspendisse libero urna, dapibus nec ligula id, suscipit varius erat. Quisque vitae massa magna.</p>
+				<p class="line-break margin-top-10"></p>
+				<p class="margin-top-10">Mauris consectetur quis massa nec gravida. Nam eu vulputate est, eu pulvinar tellus. Integer imperdiet arcu ligula, a imperdiet turpis blandit in. In vestibulum cursus rutrum. Praesent tempor sed nisi nec vestibulum. Aenean gravida sapien nec ornare finibus. Ut posuere turpis tellus, quis varius velit vulputate quis. Aenean tempus, lorem quis accumsan molestie, augue lectus tincidunt libero, vitae fringilla augue ante non dolor. Morbi porta, massa vitae suscipit venenatis, dolor metus tempus nisl, ac hendrerit neque turpis sed tortor.</p>
+				</div>
+			</section>
+		</div>
+		<script type="text/javascript">
+			var target_date= new Date("Sep 20, 2015").getTime();
+
+			var days, hours, minutes, seconds;
+
+			var countdown = document.getElementById("countdown");
+
+			setInterval(function(){
+				var current_date = new Date().getTime();
+				var seconds_left = (target_date-current_date)/1000;
+
+				days= parseInt(seconds_left /86400);
+				seconds_left = seconds_left % 86400;
+
+				hours = parseInt(seconds_left/3600);
+				seconds_left=seconds_left%3600;
+
+				minutes=parseInt(seconds_left/60);
+				seconds=parseInt(seconds_left%60);
+
+				countdown.innerHTML="Faltam " + days+" dias " + hours + " horas " + minutes + " mins " + seconds + " segs " + "para o grande dia!";
+			}, 1000);
+
+		</script>
+	</body>
+</html>
