@@ -85,7 +85,7 @@
 			
 			mensagensRecebidas.on('child_added', function(snapshot){
 				$('#chat').val($('#chat').val() + '<' + snapshot.val().nick + '> '+ snapshot.val().comment +'\n');
-				var psconsole = $('#one');
+				var psconsole = $('#chat');
 				if(psconsole.length)
 				       psconsole.scrollTop(psconsole[0].scrollHeight - psconsole.height());
 			});
