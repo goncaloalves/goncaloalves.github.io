@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://0.0.0.0:40001/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:40001/" rel="alternate" type="text/html" /><updated>2020-02-05T18:20:26+00:00</updated><id>http://0.0.0.0:40001/feed.xml</id><title type="html">Gonçalo Oliveira Alves</title><subtitle>Personal site of Gonçalo Oliveira Alves</subtitle><author><name>Gonçalo Alves</name></author><entry><title type="html">How I built this website</title><link href="http://0.0.0.0:40001/website/2020/02/05/How-I-Built-This-Website.html" rel="alternate" type="text/html" title="How I built this website" /><published>2020-02-05T15:41:21+00:00</published><updated>2020-02-05T15:41:21+00:00</updated><id>http://0.0.0.0:40001/website/2020/02/05/How-I-Built-This-Website</id><content type="html" xml:base="http://0.0.0.0:40001/website/2020/02/05/How-I-Built-This-Website.html">&lt;p&gt;My idea this website, my personal website, was to build a good looking and secure website for no cost at all. And for that I used the following stack:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Dreamhost - Domain name&lt;/li&gt;
+  &lt;li&gt;Github - Website Hosting&lt;/li&gt;
+  &lt;li&gt;Jekyll - Static site generator&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;dreamhost---domain-name&quot;&gt;Dreamhost - Domain name&lt;/h2&gt;
+
+&lt;p&gt;This one was a really simple choice: I had already bought a few domain names as well as website hosting from Dreamhost and really liked their costumer service. They make it simple to work with a domain name without web hosting from them.&lt;/p&gt;
+
+&lt;p&gt;This particular domain name was not my first choice, but I still like it. My first choice, unfortunately was already taken.&lt;/p&gt;
+
+&lt;p&gt;I believe that there are no cons to this solution I’ve chosen for domain name since it´s pretty much similar to every other option out there. I guess the value in the solution comes from the price and the user experience that is provided via Dreamhost’s website and customer support.&lt;/p&gt;
+
+&lt;h2 id=&quot;github---website-hosting&quot;&gt;Github - Website Hosting&lt;/h2&gt;
+
+&lt;p&gt;I really didn’t want to deal with the traditional web hosting methods of FTP or SSH, not because I’m not comfortable with them, but because I find them cumbersome. So when I found out that GitHub had their own web hosting solution, GitHub Pages, and that they allowed for custom domains, that was an easy option for me since all I had to do to publish the website was do a git push.&lt;/p&gt;
+
+&lt;p&gt;I also had a concern about security, I didn’t want to be worried about someone hacking or defacing this website, so, in this case, I let GitHub Pages to manage the security for me (althouth there are still some aspects of security that I have to tend to).&lt;/p&gt;
+
+&lt;p&gt;The cons of this solution is that this is not for everyone. Although it’s pretty simple to use, I believe it requires a tech savvy mind. I guess the that the fact that this solution is provided by GitHub, a platform for developers, is a pretty solid indicator that is not for everyone.&lt;/p&gt;
+
+&lt;h2 id=&quot;jekyll---static-site-generator&quot;&gt;Jekyll - Static Site Generator&lt;/h2&gt;
+
+&lt;p&gt;As I’m writing this page and look to the GitHub Pages website, I see that they have a section dedicated to using Jekyll to host a website on GitHub Pages.&lt;/p&gt;
+
+&lt;p&gt;As I’ve stated in the previous point, security was a concern to me. As Jekyll is a static site generator, there is no database to hack and so SQL injection and Cross site-scripting (which are some of the most common vulnerabilities) have been removed from the attack surface of this website. That is not to say that this website is un-hackable, but to simply state that it is a fair bit more secure.&lt;/p&gt;
+
+&lt;p&gt;Another advantages of static site generators are performance and fast page load. Since Jekyll renders pages to static HTML files there are little server resources to use and, because of this, I expect a good user experience.&lt;/p&gt;
+
+&lt;p&gt;As in the previous point, Jekyll is fairly complicated for those without a programmer experience. Jekyll requires some code to get it to work, and it doesn’t have the bells and whistles of Wordpress, with all the plugins, community and Gutenberg, the WYSIWYG editor that makes editing content a pleasure.&lt;/p&gt;</content><author><name>Gonçalo</name></author><summary type="html">My idea this website, my personal website, was to build a good looking and secure website for no cost at all. And for that I used the following stack:</summary></entry></feed>
